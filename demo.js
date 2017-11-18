@@ -1,44 +1,21 @@
-// --- JS
-// 1
-// 1 + 2 - (3 * 6 / 8)
-// 1 + 2 < 3 / 4
-// "text"
-// var a = 1;
-// var b = 1 + 2 - (3 * 6 / 8);
-// var c = 1 + 2 < 3 / 4;
-// var d = "text";
-// window
-// window.alert('x');
-// window.alert(d);
-// for (i = 0; i < 5; i = i + 1) { window.alert(i); }
-// function cube(x) { return x * x * x; }
-// ------
-// var e = [];
-// e.push(1);
-// e[0]
-// { a: 1, b: false, c: "hello", d: function() {...}, e: [123, 456] }
-// --- D3
-// d3.csv
-// dummy data
-//
-
 d3.csv(
     "data.csv",
-    function my_function(error, signals) {
-        signal_count = signals.length;
-        data = [];
-        for (i = 0; i < signal_count; i = i + 1) {
-            signal = signals[i];
-            data.push({
-                label: signal.StartDate,
+    function my_function(error, csv_signals) {
+        csv_signal_count = csv_signals.length;
+        d3_signals = [];
+        for (i = 0; i < csv_signal_count; i = i + 1) {
+            raw = csv_signals[i];
+            transformed = {
+                label: raw.StartDate,
                 times: [
                     {
-                        "color": signal.MyColor,
-                        "starting_time": signal.MyStartTime,
-                        "ending_time": signal.MyEndTime
+                        "color": raw.MyColor,
+                        "starting_time": raw.MyStartTime,
+                        "ending_time": raw.MyEndTime
                     }
                 ]
-            });
+            };
+            d3_signals.push(transformed);
         }
 
         chart = d3
@@ -55,7 +32,7 @@ d3.csv(
             .select("#timeline")
             .append("svg")
             .attr("width", 1500)
-            .datum(data)
+            .datum(d3_signals)
             .call(chart);
     }
 );
