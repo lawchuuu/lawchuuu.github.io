@@ -1,0 +1,42 @@
+title: La force des cyclones
+subhead: Classification selon l'échelle de Saffir-Simpson
+
+[tabs]
+image: hurricane_cat_1.svg
+props.name: 1
+props.title: Vents de 119 à 153 km/h
+props.description: Dégâts limités à la végétation, aux panneax de signalisation
+props.color: #FFDF86
+
+image: hurricane_cat_2.svg
+props.name: 2
+props.title: 154 à 177 km/h
+props.description: Dégâts sur les toitures, portes et fenêtres. Petits arbres déracinés
+props.color: #F9C87F
+
+
+image: hurricane_cat_3.svg
+props.name: 3
+props.title: 178 à 208 km/h
+props.description: Dommages à la structure des bâtiments, inondations des terres proches de la côte
+props.color: #F2B178
+
+image: hurricane_cat_4.svg
+props.name: 4
+props.title: 209 à 251 km/h
+props.description: Charpentes endommagées, arbres arrachés, inondations, évacuation jusqu'à 10km des côtes
+props.color: #EC9971
+
+image: hurricane_cat_5.svg
+props.name: 5
+props.title: Plus de 252 km/h
+props.description: Toits emportés, bâtiments détruits, évacuations jusqu'à 16 km à l'intérieur des terres
+props.color: #E5826A
+
+[]
+
+sources: Sources : NHS
+
+lastUpdate.key: Dernière mise à jour :
+lastUpdate.value: 22/09/2017 18:00:00
+lang: fr
