@@ -2,12 +2,6 @@ body {
   color : #231f20;
 }
 
-h1.maintitle{
-  font-size: 35px;
-  font-weight: bold;
-  color: #b2a472;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -20,11 +14,13 @@ nav ul {
 nav ul li {
   flex: 1;
   max-width: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   cursor: pointer;
   font-size: 14px;
   font-family: 'Source Sans Pro';
-  height: 90px;
+  height: 100px;
   /* Ask Jules if the height of this adjustable to the text height */
   line-height: 18px;
   color: #FFC634;
@@ -66,21 +62,12 @@ main img {
   h3 {
     padding-top: 38px;
   }
-  h3.title{
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 32px;
-  }
   p.name {
     width: 55%;
     font-weight: bold;
     font-size: 20px;
     color: #b2a472;
     /* Would like to ask Jules on how to show the name color same with the menu bar above */
-  }
-  p.text{
-    font-weight: lighter;
-    font-size: 18px;
   }
 }
 
