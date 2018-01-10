@@ -2,6 +2,12 @@ body {
   color : #231f20;
 }
 
+h1.maintitle{
+  font-size: 35px;
+  font-weight: bold;
+  color: #b2a472;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -18,7 +24,7 @@ nav ul li {
   cursor: pointer;
   font-size: 14px;
   font-family: 'Source Sans Pro';
-  height: 80px;
+  height: 90px;
   /* Ask Jules if the height of this adjustable to the text height */
   line-height: 18px;
   color: #FFC634;
