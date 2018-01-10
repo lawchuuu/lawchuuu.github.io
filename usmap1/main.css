@@ -1,3 +1,7 @@
+body{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
 
 #us-map{
   display: block;
@@ -68,4 +72,16 @@
   font-weight: 400;
   color: #111111;
   font-size: 30px;
+}
+
+footer{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+footer a{
+  color: #DD3F99;
+  text-decoration: none;
 }
