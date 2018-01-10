@@ -1,4 +1,4 @@
-title: Hurricane categories
+title: Golden Globe 2018
 subhead: Winners in main categories
 
 [tabs]
