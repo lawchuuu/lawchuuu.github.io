@@ -63,6 +63,7 @@ main img {
   h3.title{
     font-size: 30px;
     font-weight: bold;
+    line-height: 32px;
   }
   p.name {
     width: 55%;
