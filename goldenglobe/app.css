@@ -18,7 +18,7 @@ nav ul li {
   cursor: pointer;
   font-size: 14px;
   font-family: 'Source Sans Pro';
-  height: 100px;
+  height: 75px;
   /* Ask Jules if the height of this adjustable to the text height */
   line-height: 18px;
   color: #FFC634;
@@ -60,12 +60,20 @@ main img {
   h3 {
     padding-top: 38px;
   }
+  h3.title{
+    font-size: 30px;
+    font-weight: bold;
+  }
   p.name {
     width: 55%;
     font-weight: bold;
     font-size: 20px;
     color: #b2a472;
     /* Would like to ask Jules on how to show the name color same with the menu bar above */
+  }
+  p.text{
+    font-weight: lighter;
+    font-size: 18px;
   }
 }
 
