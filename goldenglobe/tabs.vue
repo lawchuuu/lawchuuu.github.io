@@ -9,9 +9,9 @@
     </nav>
     <main>
       <img :src="currentImage" />
-      <h3>{{ currentItem.props.title }}</h3>
+      <h3 class="title">{{ currentItem.props.title }}</h3>
       <p class="name"> {{ currentItem.props.description }}</p>
-      <p> {{ currentItem.props.text }}</p>
+      <p class="text"> {{ currentItem.props.text }}</p>
     </main>
     
   </div> 
