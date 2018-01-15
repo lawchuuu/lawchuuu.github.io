@@ -18,7 +18,7 @@ a {
 .container {
   overflow: hidden;
   *zoom: 1;
-  margin: 0 20px;
+  margin: 30px 20px;
 }
 
 .site-content {
@@ -53,6 +53,9 @@ a {
 }
 .menu a:hover {
   color: #475868;
+}
+.homee{
+  color:black;
 }
 
 /* RESPONSIVE */
@@ -140,4 +143,59 @@ a {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
   }
+}
+
+/* body content*/
+
+h1{
+  color: #d1a486;
+}
+
+.firstgraph{
+  font-weight: 300;
+  max-width: 700px;
+}
+
+.firsthashtag {
+  color: #86c9d1;
+  font-weight: 500;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: white;
+  color: #689fa5;
+}
+
+.fa-twitter {
+  background: white;
+  color: #689fa5;
+}
+
+.fa-linkedin {
+  background: white;
+  color: #689fa5;
+}
+
+.fa-github {
+  background: white;
+  color: #689fa5;
+}
+
+.fa-envelope-open {
+  background: white;
+  color: #689fa5;
+}
+
+figcaption {
+  color: #555;
+  font-weight: 300;
 }
