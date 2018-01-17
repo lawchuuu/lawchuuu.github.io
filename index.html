@@ -1,75 +1,149 @@
 <!DOCTYPE html>
 <html lang="en" >
+   <head>
+      <meta charset="UTF-8">
+      <title>L.C. lab</title>
+      <link rel="icon" type="image/png" href="asset/portfolio-w-logo.png">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
+      <script src="js/ninja-slider.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <!-- source of the menu bar https://codepen.io/hanlinC/pen/dJwil -->
+      <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+         <link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Special+Elite' rel='stylesheet'>
+      </head>
+      <div class="site-container">
+         <div class="site-pusher">
+            <header class="header">
+               <a href="#" class="header__icon" id="header__icon"></a>
+               <a href="#" class="header__logo"><img class="headerlogopic" src="asset/portfolio-w-logo.png"></a>
+               <nav class="menu">
+                  <a class="homee" href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Contact</a>
+               </nav>
+            </header>
+            <div class="site-content">
+               <div class="container">
+                  <h1>Visual Journalist</h1>
+                  <p class="firstgraph">A Hong Kong-based multimedia journalist currently working with Agence France-presse as Graphic Artist. His job includes charting, producing diagrams and illustrations for global news, mainly in Asia Pacific. Grad in journo and design in the city. Call me maybe ... <span class="firsthashtag">#bookworm #idiot</span>
+                  </p>
+                  <p>
+                     <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-linkedin"></a>
+                     <a href="#" class="fa fa-github"></a>
+                     <a href="#" class="fa fa-envelope-open"></a>
+                  </p>
+                                    <!--start-->
+                  <div style="display:none;">
+                     <div id="ninja-slider">
+                        <div class="slider-inner">
+                           <ul>
+                              <li>
+                                 <a class="ns-img" href="asset/hongkong.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Hong Kong electric formula one</h3>
+                                    <p>This is a graphic produced for Hong Kong electric formula one 2017. It was the first electric-auto race held in the city. Co-worked John Saeki and Gal Roma</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="asset/shanghai.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Shanghai Flood</h3>
+                                    <p>Flood map showing how the climate change damage the whole Shanghai city.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <span class="ns-img" style="background-image:url(img/b.jpg);"></span>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 3</h3>
+                                    <p>Duis fringilla arcu convallis urna commodo, et tempus velit posuere.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/c.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 4</h3>
+                                    <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a class="ns-img" href="img/d.jpg"></a>
+                                 <div class="caption">
+                                    <h3>Dummy Caption 5</h3>
+                                    <p>Proin non dui at metus suscipit bibendum.</p>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div style="max-width:700px">
+                     <div class="gallery">
+                        <img src="asset/hongkong-small.jpg" onclick="lightbox(0)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(1)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(2)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(3)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(4)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(5)" style="width:auto; height:50px;" />
+                         <img src="asset/shanghai-small.jpg" onclick="lightbox(7)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(8)" style="width:auto; height:50px;" />
+                        <img src="asset/shanghai-small.jpg" onclick="lightbox(9)" style="width:auto; height:50px;" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>L.C. lab</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-  
-</head>
-
-<body>
-<!-- source of the menu bar https://codepen.io/hanlinC/pen/dJwil -->
-  <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Special+Elite' rel='stylesheet'>
-</head>
-
-<div class="site-container">
-  <div class="site-pusher">
-    
-    <header class="header">
-      
-      <a href="#" class="header__icon" id="header__icon"></a>
-      <a href="#" class="header__logo"><img class="headerlogopic" src="asset/portfolio-w-logo.png"></a>
-      
-      <nav class="menu">
-        <a class="homee" href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </nav>
-      
-    </header>
-
-    <div class="site-content">
-      <div class="container">
-        
-        <h1>Visual Journalist</h1>
-        <p class="firstgraph">A Hong Kong-based multimedia journalist currently working with Agence France-presse as Graphic Artist. His job includes charting, producing diagrams and illustrations for global news, mainly in Asia Pacific. Grad in journo and design in the city. Call me maybe ... <span class="firsthashtag">#bookworm #idiot</span>
-        </p>
-        <p>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-github"></a>
-          <a href="#" class="fa fa-envelope-open"></a>
-        </p>
-        
-        <figure>
-          <a href="#" target="_blank">
-            <img src="asset/stockholm-leave.jpg" style="width: 100%; max-width: 600px; height: auto;">
-          </a>
-          <figcaption style="font-size: smaller">Fallen maple leaves strewn in the sombre Stockholm street</figcaption>
-        </figure>
-      </div> <!-- END container -->
-    </div> <!-- END site-content -->
-    <div class="site-cache" id="site-cache"></div>
-  </div> <!-- END site-pusher -->
-</div> <!-- END site-container -->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+                     </div>
+                  </div>
+                  <!--end-->
+               </div>
+               <!-- END container -->
+            </div>
+            <!-- END site-content -->
+            <div class="site-cache" id="site-cache"></div>
+         </div>
+         <!-- END site-pusher -->
+      </div>
+      <!-- END site-container -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script  src="js/index.js"></script>
+   </body>
 </html>
