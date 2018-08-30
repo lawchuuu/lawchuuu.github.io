@@ -154,6 +154,7 @@ h1{
 .firstgraph{
   font-weight: 300;
   max-width: 700px;
+  line-height: 1.5em;
 }
 
 .firsthashtag {
@@ -193,4 +194,15 @@ h1{
 .fa-envelope-open {
   background: white;
   color: #689fa5;
+}
+
+.interactive-paragraph {
+  line-height: 0em;
+  color: #7869E8;
+  padding-bottom:20px;
+}
+
+.titlee {
+  line-height: 1.2em;
+  color: #666;
 }
