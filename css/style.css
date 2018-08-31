@@ -206,3 +206,8 @@ h1{
   line-height: 1.2em;
   color: #666;
 }
+
+.gifsize {
+   width: 100%;
+   max-width: 800px;
+}
