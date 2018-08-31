@@ -211,3 +211,7 @@ h1{
    width: 100%;
    max-width: 800px;
 }
+
+.videodescription {
+  max-width: 600px;
+}
