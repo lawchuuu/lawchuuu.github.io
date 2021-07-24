@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
       <script src="js/ninja-slider.js" type="text/javascript"></script>
+      <script src="js/tab.js" type="text/javascript"></script>
    </head>
    <body>
       <!-- source of the menu bar https://codepen.io/hanlinC/pen/dJwil -->
@@ -33,19 +34,69 @@
                   </p>
                   <p><a href="https://drive.google.com/open?id=0B4eSpDAXn5MIbGRmNnZXalQ0dUk" target="_blank"><span style="color: #5499c7">Click here to view my printable portfolio</span></a></p>
                   <p>
+                     <a href="asset/resume-new-v2.pdf" target="_blank"><span style="font-weight: bold; color: #ff8080">Resume</span></a>
                      <a href="https://www.facebook.com/chulawlawlaw" class="fa fa-facebook" target="_blank"></a>
                      <a href="https://mobile.twitter.com/Chulawlaw" class="fa fa-twitter" target="_blank"></a>
                      <a href="https://www.linkedin.com/in/laurence-chu-03453360/" class="fa fa-linkedin" target="_blank"></a>
                      <a href="#" class="fa fa-github" target="_blank"></a>
                      <a href="mailto:chuding@gmail.com" class="fa fa-envelope-open" target="_blank"></a>
-                     <a href="asset/resume-new-v2.pdf" target="_blank"><span style="font-weight: bold; color: #ff8080">Resume</span></a>
                   </p>
-                                    <!--start-->
+                  <!-- The grid: four columns -->
+                  <div class="row2">
+                     <div class="column2">
+                        <img src="asset/oly-logo1-02.png" alt="AFP's Tokyo2020 Olympic package logo design" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/karate-02.png" alt="New featured sport in Tokyo2020 - karate" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/skateboard-02.png" alt="New featured sport in Tokyo2020 - skateboarding" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/baseball-02.png" alt="New featured sport in Tokyo2020 - baseball" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/surfing-02.png" alt="New featured sport in Tokyo2020 - surfing" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/sportclimbing-02.png" alt="New featured sport in Tokyo2020 - Sport climbing" onclick="myFunction(this);">
+                     </div>
+                  </div>
+                  <div class="row2">
+                     <div class="column2">
+                        <img src="asset/torch-relay.jpg" alt="Tokyo2020 torch relay route" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/virgin-fly.jpg" alt="New galactic odyssey by Virgin" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/taiso.jpg" alt="Japan's radio taiso (daily workout broadcast" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/china-space.jpg" alt="China new spacecrafts launch" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/india-monsoon.jpg" alt="Monsoon" onclick="myFunction(this);">
+                     </div>
+                     <div class="column2">
+                        <img src="asset/everest.jpg" alt="North Mt. Everest route" onclick="myFunction(this);">
+                     </div>
+                  </div>
+                  <!-- The expanding image container -->
+                  <div class="container2">
+                     <!-- Close the image -->
+                     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                     <!-- Expanded image -->
+                     <img id="expandedImg" style="width:100%">
+                     <!-- Image text -->
+                     <div id="imgtext"></div>
+                  </div>
+                  <!--start-->
                   <div style="display:none;">
                      <div id="ninja-slider">
                         <div class="slider-inner">
                            <ul>
-                            <li>
+                              <li>
                                  <span class="ns-img" style="background-image:url(asset/magpie.jpg);"></span>
                                  <div class="caption">
                                     <h3>The javan green magpie</h3>
@@ -106,14 +157,14 @@
                                     <h3>Hong Kong electric formula one</h3>
                                     <p>This is a graphic produced for Hong Kong electric formula one 2017. It was the first electric-auto race held in the city. Co-worked John Saeki and Gal Roma <span style="font-size: 10px;font-weight:lighter;">(click the right-top corner to close the slide)</span></p>
                                  </div>
-                              </li>  
+                              </li>
                               <li>
                                  <a class="ns-img" href="asset/shanghai.jpg"></a>
                                  <div class="caption">
                                     <h3>Shanghai Flood</h3>
                                     <p>Flood map showing how the climate change damage the whole Shanghai city. <span style="font-size: 10px;font-weight:lighter;">(click the right-top corner to close the slide)</span></p>
                                  </div>
-                              </li>                           
+                              </li>
                               <li>
                                  <a class="ns-img" href="asset/haiti.jpg"></a>
                                  <div class="caption">
@@ -302,14 +353,14 @@
                                     <h3>Thailand cave rescue</h3>
                                     <p>Re-visualising the rescue based on the video by Thai Navy Seal, co-worked with Gal Roma <span style="font-size: 10px;font-weight:lighter;">(click the right-top corner to close the slide)</span></p>
                                  </div>
-                            </li>
-                            <li>
+                              </li>
+                              <li>
                                  <span class="ns-img" style="background-image:url(asset/wildfire.jpg);"></span>
                                  <div class="caption">
                                     <h3>Worsen wildfire</h3>
                                     <p>10 ways that worsen the wildfire globally <span style="font-size: 10px;font-weight:lighter;">(click the right-top corner to close the slide)</span></p>
                                  </div>
-                            </li>
+                              </li>
                            </ul>
                            <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
                         </div>
@@ -317,9 +368,9 @@
                   </div>
                   <div style="max-width:700px">
                      <div class="gallery">
-                     <img src="asset/cave-small.jpg" onclick="lightbox(-2)" style="width:auto; height:100px;" />
+                        <img src="asset/cave-small.jpg" onclick="lightbox(-2)" style="width:auto; height:100px;" />
                         <img src="asset/wildfire-small.jpg" onclick="lightbox(-1)" style="width:auto; height:100px;" />
-                     <img src="asset/magpie-small.jpg" onclick="lightbox(0)" style="width:auto; height:100px;" />
+                        <img src="asset/magpie-small.jpg" onclick="lightbox(0)" style="width:auto; height:100px;" />
                         <img src="asset/tess-small.jpg" onclick="lightbox(1)" style="width:auto; height:100px;" />
                         <img src="asset/hkce-small.jpg" onclick="lightbox(2)" style="width:auto; height:100px;" />
                         <img src="asset/whale-small.jpg" onclick="lightbox(3)" style="width:auto; height:100px;" />
@@ -332,7 +383,7 @@
                         <img src="asset/kdetonation-small.jpg" onclick="lightbox(-9)" style="width:auto; height:100px;" />
                         <img src="asset/nkmil-small.jpg" onclick="lightbox(-10)" style="width:auto; height:100px;" />
                         <img src="asset/coralbleach-small.jpg" onclick="lightbox(7)" style="width:auto; height:100px;" />
-                         <img src="asset/hongkong-small.jpg" onclick="lightbox(8)" style="width:auto; height:100px;" />
+                        <img src="asset/hongkong-small.jpg" onclick="lightbox(8)" style="width:auto; height:100px;" />
                         <img src="asset/shanghai-small.jpg" onclick="lightbox(9)" style="width:auto; height:100px;" />
                         <img src="asset/haiti-small.jpg" onclick="lightbox(10)" style="width:auto; height:100px;" />
                         <img src="asset/eutelsat-small.jpg" onclick="lightbox(11)" style="width:auto; height:100px;" />
